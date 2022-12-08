@@ -1,9 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-print("edit <code>app.py</code> and reload this page.")
-
-# plot
 x = np.random.randn(100)
 y = np.random.randn(100)
 fig, ax = plt.subplots()
