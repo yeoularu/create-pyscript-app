@@ -1,0 +1,7 @@
+# Distribution / packaging
+dist/
+*.egg-info/
+.eggs
+
+# macOS General
+.DS_Store
