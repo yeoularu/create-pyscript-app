@@ -7,9 +7,9 @@
 
 <!-- Badges -->
 
-![License](https://badgen.net/pypi/license/create-pyscript-app)
+![License](https://badgen.net/github/license/yeoularu/create-pyscript-app)
 ![Version](https://badgen.net/pypi/v/create-pyscript-app)
-![Python Version](https://badgen.net/pypi/python/create-pyscript-app)
+![Python Version](https://badgen.net/badge/python/>=3.6/blue)
 
 <br />
 <pre>pip install <a href="https://pypi.org/project/create-pyscript-app">create-pyscript-app</a></pre>
@@ -19,11 +19,15 @@
 
 <br />
 
+_you can see the preview site [HERE](https://yeoularu.github.io/pyscript-deploy-test/)_
+
+<br />
+
 ## Creating an App
 
 - You'll need to have **Python 3.6 or later version** on local development machine.
 
-- **To run PyScript, Internet connection is required** because of using assets served on [https://pyscript.net](https://pyscript.net). If you want to download the source and build it yourself, follow the instructions in the [PyScript README.md](https://github.com/pyscript/pyscript/blob/main/README.md) file.
+- **To run PyScript, Internet connection is required** because it use assets served on [https://pyscript.net](https://pyscript.net). If you want to download the source and build it yourself, follow the instructions in the [PyScript README.md](https://github.com/pyscript/pyscript/blob/main/README.md) file.
 
 To create a new app, first install package with pip:
 
