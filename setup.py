@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="create-pyscript-app",
-    version="0.0.1",
+    version="0.0.2",
     author="yeoularu",
     author_email="yeoularu@gmail.com",
     description="Set up a PyScript web app by running one command.",
@@ -16,7 +16,7 @@ setup(
         "Bug Tracker": "https://github.com/yeoularu/create-pyscript-app/issues",
     },
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],

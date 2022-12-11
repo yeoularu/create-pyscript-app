@@ -8,7 +8,7 @@ def main():
     parser.add_argument(dest="project_directory",
                         help="name of project directory")
     parser.add_argument("-V", "--version", action="version",
-                        version="%(prog)s v0.0.1")
+                        version="%(prog)s v0.0.2")
     args = parser.parse_args()
 
     try:
