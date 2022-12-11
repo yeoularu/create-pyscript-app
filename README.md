@@ -15,6 +15,7 @@
 <pre>pip install <a href="https://pypi.org/project/create-pyscript-app">create-pyscript-app</a></pre>
 
 <br />
+<img src="sample.gif" width="600" />
 </div>
 
 <br />
