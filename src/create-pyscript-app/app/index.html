@@ -23,12 +23,7 @@
       >
       App
     </h1>
-    <div>
-      <py-script>
-        print("edit <code>app.py</code> and reload this page.")
-      </py-script>
-    </div>
-
+    <div id="message"></div>
     <div id="app"></div>
 
     <div id="link">
@@ -51,6 +46,10 @@
     </div>
 
     <py-config type="json">{"packages": ["numpy", "matplotlib"]}</py-config>
+    <py-script>
+      msg = "edit <code>app.py</code> and reload this page."
+      pyscript.write('message', msg)
+    </py-script>
     <py-script src="app.py" output="app"></py-script>
   </body>
 </html>
