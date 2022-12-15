@@ -47,9 +47,9 @@
 
     <py-config type="json">{"packages": ["numpy", "matplotlib"]}</py-config>
     <py-script>
-      msg = "edit <code>app.py</code> and reload this page."
-      pyscript.write('message', msg)
+      msg_div = Element("message") 
+      msg_div.element.innerHTML = "edit <code>app.py</code> and reload this page."
     </py-script>
-    <py-script src="app.py" output="app"></py-script>
+    <py-script src="app.py"></py-script>
   </body>
 </html>
