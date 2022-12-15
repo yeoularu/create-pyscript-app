@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="create-pyscript-app",
-    version="0.0.2",
+    version="0.0.3",
     author="yeoularu",
     author_email="yeoularu@gmail.com",
     description="Set up a PyScript web app by running one command.",
